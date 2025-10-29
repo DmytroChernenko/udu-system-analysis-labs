@@ -1,6 +1,9 @@
 from scipy.optimize import linprog
 
-c = [-140, -90]
+price_A = int(input("Введіть ціну бензину марки A:"))
+price_B = int(input("Введіть ціну бензину марки B:"))
+
+c = [-price_A, -price_B]
 
 
 A = [
